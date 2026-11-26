@@ -31,7 +31,7 @@ export const THEMES: LevelTheme[] = [
   // ── LEVEL 1-2 : SPACE ──────────────────────────────────────────────────────
   {
     id: 'space', name: 'ESPACE PROFOND', subtitle: 'Le commencement',
-    bgImage: '/bg/space.jpg',
+    bgImage: './bg/space.jpg',
     bgTint: 'rgba(5,8,30,0.45)',
     floorColor: '#1a2a80', ceilColor: '#2233cc',
     gridColor: 'rgba(40,80,200,0.08)',
@@ -45,7 +45,7 @@ export const THEMES: LevelTheme[] = [
     hookColor: '#e8f4ff', hookGlow: '#88ccff',
     particleColor: '#88aaff',
     musicKey: 0, musicMode: 'minor', bpmBase: 115,
-    ambientDesc: 'Flottez dans le néant — maîtrisez les bases',
+    ambientDesc: 'Flottez dans le néant : maîtrisez les bases',
     nebulaColors: ['40,20,80','10,40,100','80,20,60'],
     scanlineAlpha: 0.03, vignetteColor: '3,4,20',
     specialFX: 'none',
@@ -54,7 +54,7 @@ export const THEMES: LevelTheme[] = [
   // ── LEVEL 3-4 : OCEAN ──────────────────────────────────────────────────────
   {
     id: 'ocean', name: 'ABYSSE OCEANIQUE', subtitle: 'La pression monte',
-    bgImage: '/bg/ocean.jpg',
+    bgImage: './bg/ocean.jpg',
     bgTint: 'rgba(0,15,40,0.50)',
     floorColor: '#004466', ceilColor: '#006699',
     gridColor: 'rgba(0,150,200,0.07)',
@@ -77,7 +77,7 @@ export const THEMES: LevelTheme[] = [
   // ── LEVEL 5-6 : NEON CITY ──────────────────────────────────────────────────
   {
     id: 'neon', name: 'VILLE NEON', subtitle: 'La jungle urbaine',
-    bgImage: '/bg/neon.jpg',
+    bgImage: './bg/neon.jpg',
     bgTint: 'rgba(10,0,20,0.40)',
     floorColor: '#550044', ceilColor: '#aa0088',
     gridColor: 'rgba(200,0,150,0.08)',
@@ -100,7 +100,7 @@ export const THEMES: LevelTheme[] = [
   // ── LEVEL 7-8 : ICE CAVE ───────────────────────────────────────────────────
   {
     id: 'ice', name: 'ABYSSE GELÉ', subtitle: 'Le froid s\'intensifie',
-    bgImage: '/bg/ice.jpg',
+    bgImage: './bg/ice.jpg',
     bgTint: 'rgba(0,10,30,0.40)',
     floorColor: '#003366', ceilColor: '#0055aa',
     gridColor: 'rgba(100,200,255,0.07)',
@@ -123,7 +123,7 @@ export const THEMES: LevelTheme[] = [
   // ── LEVEL 9-10 : LAVA WORLD ────────────────────────────────────────────────
   {
     id: 'lava', name: 'NUCLEUS ENFERNAL', subtitle: 'Intensité brûlante',
-    bgImage: '/bg/lava.jpg',
+    bgImage: './bg/lava.jpg',
     bgTint: 'rgba(30,5,0,0.45)',
     floorColor: '#882200', ceilColor: '#cc4400',
     gridColor: 'rgba(255,80,0,0.07)',
@@ -146,7 +146,7 @@ export const THEMES: LevelTheme[] = [
   // ── LEVEL 11-12 : HAUNTED ──────────────────────────────────────────────────
   {
     id: 'haunted', name: 'Royaume Hanté', subtitle: 'Les esprits se réveillent',
-    bgImage: '/bg/haunted.jpg',
+    bgImage: './bg/haunted.jpg',
     bgTint: 'rgba(5,15,5,0.50)',
     floorColor: '#112211', ceilColor: '#224422',
     gridColor: 'rgba(80,200,80,0.06)',
@@ -169,7 +169,7 @@ export const THEMES: LevelTheme[] = [
   // ── LEVEL 13-14 : CYBER ────────────────────────────────────────────────────
   {
     id: 'cyber', name: 'MATRICE CYBER', subtitle: 'Surcharge de données',
-    bgImage: '/bg/cyber.jpg',
+    bgImage: './bg/cyber.jpg',
     bgTint: 'rgba(0,15,5,0.40)',
     floorColor: '#003300', ceilColor: '#005500',
     gridColor: 'rgba(0,255,80,0.10)',
@@ -183,7 +183,7 @@ export const THEMES: LevelTheme[] = [
     hookColor: '#ccffdd', hookGlow: '#00ff44',
     particleColor: '#00ff66',
     musicKey: 5, musicMode: 'dorian', bpmBase: 145,
-    ambientDesc: 'Hacker le système — chaque boule est un noeud corrompu',
+    ambientDesc: 'Piratez le système : chaque boule est un nœud corrompu',
     nebulaColors: ['0,40,10','0,60,20','0,30,5'],
     scanlineAlpha: 0.08, vignetteColor: '0,10,5',
     specialFX: 'glitch',
@@ -192,7 +192,7 @@ export const THEMES: LevelTheme[] = [
   // ── LEVEL 15+ : VOID ───────────────────────────────────────────────────────
   {
     id: 'void', name: 'LE VIDE', subtitle: 'Aucune échappatoire',
-    bgImage: '/bg/void.jpg',
+    bgImage: './bg/void.jpg',
     bgTint: 'rgba(15,0,30,0.45)',
     floorColor: '#330044', ceilColor: '#660088',
     gridColor: 'rgba(150,0,255,0.08)',
@@ -206,7 +206,7 @@ export const THEMES: LevelTheme[] = [
     hookColor: '#ffccff', hookGlow: '#cc00ff',
     particleColor: '#cc44ff',
     musicKey: 11, musicMode: 'phrygian', bpmBase: 155,
-    ambientDesc: 'La réalité elle-même s\'est effondrée — survivez au chaos',
+    ambientDesc: 'La réalité elle-même s\'est effondrée : survivez au chaos',
     nebulaColors: ['60,0,80','80,0,60','40,0,100'],
     scanlineAlpha: 0.05, vignetteColor: '10,0,20',
     specialFX: 'sparks',

@@ -837,7 +837,7 @@ function drawTitle(ctx: CanvasRenderingContext2D, state: GameState, theme: Level
   // Crédits créateur
   ctx.font = '11px "Courier New", monospace'; ctx.textAlign = 'center';
   ctx.fillStyle = 'rgba(120,140,200,0.55)'; ctx.shadowBlur = 0;
-  ctx.fillText('Créé par Hylst — Geoffroy avec l\'aide d\'une IA', cx, cy + 92);
+  ctx.fillText('Créé par Hylst, Geoffroy avec l\'aide d\'une IA', cx, cy + 92);
 
   if (state.highScore > 0) {
     ctx.fillStyle = 'rgba(180,150,255,0.7)'; ctx.font = '14px "Courier New", monospace';
@@ -876,7 +876,7 @@ function drawGameOver(ctx: CanvasRenderingContext2D, state: GameState, time: num
   // Crédits
   ctx.font = '10px "Courier New", monospace'; ctx.textAlign = 'center';
   ctx.fillStyle = 'rgba(100,120,180,0.45)';
-  ctx.fillText('Hylst — Geoffroy avec l\'aide d\'une IA', cx, cy + 110);
+  ctx.fillText('Hylst, Geoffroy avec l\'aide d\'une IA', cx, cy + 110);
 }
 
 function drawDead(ctx: CanvasRenderingContext2D) {

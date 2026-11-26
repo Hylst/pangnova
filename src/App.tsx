@@ -29,7 +29,7 @@ function DirBtn({ label, onDown, onUp }: { label: string; onDown: () => void; on
 function FireBtn({ onFire }: { onFire: () => void }) {
   return (
     <button
-      aria-label="Fire"
+      aria-label="Tirer"
       style={{
         width: 88, height: 88, borderRadius: '50%',
         background: 'radial-gradient(circle at 35% 35%, rgba(140,210,255,0.42), rgba(30,80,200,0.22))',
@@ -59,7 +59,7 @@ function FireBtn({ onFire }: { onFire: () => void }) {
 function PauseBtn({ onPause }: { onPause: () => void }) {
   return (
     <button
-      aria-label="Pause"
+      aria-label="Mettre en pause"
       style={{
         width: 44, height: 44, borderRadius: '50%',
         background: 'rgba(20,30,70,0.75)',
@@ -80,7 +80,7 @@ function MuteBtn({ onToggle }: { onToggle: () => boolean }) {
   const handle = useCallback(() => setMuted(onToggle()), [onToggle]);
   return (
     <button
-      aria-label={muted ? 'Unmute' : 'Mute'}
+      aria-label={muted ? 'Activer le son' : 'Couper le son'}
       onClick={handle}
       style={{
         position: 'absolute', top: 10, right: 10,
