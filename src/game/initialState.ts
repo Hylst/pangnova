@@ -122,7 +122,7 @@ export function makeInitialState(): GameState {
 // ─── Étapes d'accueil (en français) ──────────────────────────────────────────
 export const ONBOARD_STEPS = [
   {
-    title: 'BIENVENUE DANS PANG GENESIS',
+    title: 'BIENVENUE DANS PANG NOVA',
     body: 'Éliminez toutes les boules pour valider chaque niveau. Les boules se divisent en plus petites quand elles sont touchées !',
     icon: '🎮',
     action: 'Appuyez sur ESPACE ou touchez pour continuer',

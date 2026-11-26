@@ -817,7 +817,7 @@ function drawTitle(ctx: CanvasRenderingContext2D, state: GameState, theme: Level
   ctx.fillText('PANG', 0, 0);
   ctx.font = 'bold 34px "Courier New", monospace';
   ctx.fillStyle = theme.accentA; ctx.shadowColor = theme.accentA; ctx.shadowBlur = 28;
-  ctx.fillText('GENESIS', 0, 56);
+  ctx.fillText('NOVA', 0, 56);
   ctx.restore();
 
   // Divider
